@@ -92,7 +92,7 @@ def mcd(num1, num2):
     return mcd
 
 
-def mcmN(*numeros):
+def mcm(*numeros):
     """
     Calcula el mínimo común múltiplo para un número arbitrario de argumentos
 
@@ -106,7 +106,7 @@ def mcmN(*numeros):
         resultado = mcm(resultado, numero)
     return resultado
 
-def mcdN(*numeros):
+def mcd(*numeros):
     """
     Devuelve el máximo común divisor para un número arbitrario de argumentos
 
